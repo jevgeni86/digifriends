@@ -1,0 +1,23 @@
+html, body {
+    background-color: #C2C2C9;
+    text-align: center;
+}
+
+#setup {
+	background-color: yellow;
+	font-size: 16pt;
+}
+
+#drop_database{
+	position: fixed;
+	height: 50px;
+	width: 50px;
+}
+
+#drop_db_button{
+	background-color: red;
+}
+
+hr{
+	width: 25%;
+}

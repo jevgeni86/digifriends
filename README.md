@@ -8,10 +8,10 @@
 - A webbrowser
 
 ### Installation ###
-This project assumes that MySQL server and Apache webserver are installed and running (either as service or process). It also assumes that PHP5 is installed.
+This project assumes that MySQL server and Apache webserver are installed and running. It also assumes that PHP5 is installed.
 Copy the web project directory to your apache web directory. If you are using XAMPP put the web project in _<xampp_dir>\htdocs_, e.g. _C:\xampp\htdocs_. Under Linux put the web project in _/var/www_ (if you are not using XAMPP for Linux).
 
-When starting the application for the first time, it will automatically create a database 'digifriends'. A MySQL user that has write privileges has to be provided in the initial setup.
+When starting the application for the first time, it will automatically create a database _digifriends_. A MySQL user that has write privileges has to be provided in the initial setup.
 
 ### Usage ###
 Assuming you are using the application locally and the directory name is _digifriends_, open a browser window and visit http://localhost:80/digifriends
@@ -20,4 +20,4 @@ After initial setup you will have functions for writing/retrieving data to/from 
 
 ### Notes ###
 Numbers, as well as their digifriends, are automatically deleted from the database if they have not been used for more than 30 days by means of a scheduled stored procedure.
-In your MySQL server global event scheduler has to be active to enable scheduling. It can be set to on in my.cnf or via mysql client using this command: set global event_scheduler=on;
+In your MySQL server global event scheduler has to be active to enable scheduling. It can be set to on in my.cnf or via mysql client using this command: _set global event_scheduler=on;_

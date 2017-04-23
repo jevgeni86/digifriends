@@ -9,7 +9,7 @@
 
 ### Installation ###
 This project assumes that MySQL server and Apache webserver are installed and running. It also assumes that PHP5 is installed.
-Copy the web project directory to your apache web directory. If you are using XAMPP put the web project in _<xampp_dir>\htdocs_, e.g. _C:\xampp\htdocs_. Under Linux put the web project in _/var/www_ (if you are not using XAMPP for Linux).
+Clone the project from git or download and unzip the web project. Copy the web project directory to your apache web directory. If you are using XAMPP put the web project in _<xampp_dir>\htdocs_, e.g. _C:\xampp\htdocs_. Under Linux put the web project in _/var/www_ (if you are not using XAMPP for Linux).
 
 When starting the application for the first time, it will automatically create a database _digifriends_. A MySQL user that has write privileges has to be provided in the initial setup.
 
